@@ -1,1 +1,4 @@
-# Sparta_Global_Nginx
+# nginx
+
+TODO: Enter the cookbook description here.
+
