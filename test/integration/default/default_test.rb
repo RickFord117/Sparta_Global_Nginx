@@ -8,3 +8,7 @@
 describe package ('nginx') do
   it { should be_installed }
 end
+
+describe http("http://localhost", enable_remote_worker: true) do
+  its('status') { should cmp 502 }
+end
