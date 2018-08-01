@@ -3,5 +3,5 @@ hostname: 127.0.0.1
 port: '2200'
 username: vagrant
 ssh_key: "/Users/tech-a10/week10/Sparta_Global_Nginx/.kitchen/kitchen-vagrant/default-ubuntu-1604/.vagrant/machines/default/virtualbox/private_key"
-last_action: verify
+last_action: converge
 last_error: 
