@@ -20,7 +20,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[nginx-cookbook::default]
+      - recipe[nginx::default]
     verifier:
       inspec_tests:
         - test/integration/default
