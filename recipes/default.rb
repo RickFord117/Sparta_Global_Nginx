@@ -9,7 +9,7 @@ end
 
 package 'nginx'
 
-service 'nginx' do
+service 'nginx-cookbook' do
   supports status: true, restart: true, reload: true
   action [:enable, :start]
 end
